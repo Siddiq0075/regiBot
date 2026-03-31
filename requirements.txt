@@ -1,0 +1,24 @@
+# requirements.txt for regiBot project
+
+# Core dependencies for building a robust bot application
+python-dotenv>=1.0.0      # Environment variable management
+requests>=2.31.0          # HTTP requests for API integration
+aiohttp>=3.9.0            # Asynchronous HTTP client/server framework
+discord.py>=2.3.2         # Discord bot framework (if applicable)
+pandas>=2.2.0             # Data manipulation and analysis
+sqlalchemy>=2.0.29        # Database ORM for scalable data storage
+loguru>=0.7.2             # Advanced logging for maintainability
+
+# Optional: Add machine learning or NLP capabilities
+scikit-learn>=1.4.2       # Machine learning algorithms
+nltk>=3.8.1               # Natural language processing toolkit
+
+# Development and testing tools
+pytest>=8.2.0             # Unit testing framework
+black>=24.4.0             # Code formatting for consistency
+
+# Resume highlights:
+# - Implemented robust bot automation using Python and Discord.py
+# - Integrated RESTful APIs with requests and aiohttp
+# - Leveraged pandas and SQLAlchemy for scalable data management
+# - Ensured code quality and maintainability with pytest and black

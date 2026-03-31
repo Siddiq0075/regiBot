@@ -1,0 +1,45 @@
+# 🔐 Environment variables
+.env
+
+# 🐍 Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 🧪 Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# 📦 Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# 📊 Excel exports
+exports/
+*.xlsx
+
+# 🧾 Logs
+*.log
+
+# 🖥️ OS files
+.DS_Store
+Thumbs.db
+
+# 🧠 IDE / Editor files
+.vscode/
+.idea/
+
+# 🔄 Temporary files
+*.tmp
+*.bak
+*.swp
+
+# 🗃️ Database local files (if any)
+*.db
+*.sqlite3
+
+# 🔑 Secrets / keys
+config/secrets.py
